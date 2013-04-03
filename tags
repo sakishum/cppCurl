@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CTiny_curl	cHttp.cpp	/^CTiny_curl::CTiny_curl(void)$/;"	f	class:CTiny_curl
+CTiny_curl	cHttp.h	/^	CTiny_curl(void);$/;"	p	class:CTiny_curl	access:public
+CTiny_curl	cHttp.h	/^class CTiny_curl$/;"	c
+CTiny_curl::CTiny_curl	cHttp.cpp	/^CTiny_curl::CTiny_curl(void)$/;"	f	class:CTiny_curl
+CTiny_curl::CTiny_curl	cHttp.h	/^	CTiny_curl(void);$/;"	p	class:CTiny_curl	access:public
+CTiny_curl::Get	cHttp.cpp	/^size_t CTiny_curl::Get(string &data, string url)$/;"	f	class:CTiny_curl
+CTiny_curl::Get	cHttp.h	/^	size_t	Get(string &data, string url);$/;"	p	class:CTiny_curl	access:public
+CTiny_curl::Init	cHttp.cpp	/^int CTiny_curl::Init(void)$/;"	f	class:CTiny_curl
+CTiny_curl::Init	cHttp.h	/^	int		Init(void);$/;"	p	class:CTiny_curl	access:public
+CTiny_curl::Post	cHttp.h	/^	size_t	Post(string &data, string url);$/;"	p	class:CTiny_curl	access:public
+CTiny_curl::Replace_space	cHttp.cpp	/^string CTiny_curl::Replace_space(string url)$/;"	f	class:CTiny_curl
+CTiny_curl::Replace_space	cHttp.h	/^	string Replace_space(string url);$/;"	p	class:CTiny_curl	access:private
+CTiny_curl::m_pcurl_handle	cHttp.h	/^	CURL *m_pcurl_handle;$/;"	m	class:CTiny_curl	access:private
+CTiny_curl::~CTiny_curl	cHttp.cpp	/^CTiny_curl::~CTiny_curl(void)$/;"	f	class:CTiny_curl
+CTiny_curl::~CTiny_curl	cHttp.h	/^	~CTiny_curl(void);$/;"	p	class:CTiny_curl	access:public
+Get	cHttp.cpp	/^size_t CTiny_curl::Get(string &data, string url)$/;"	f	class:CTiny_curl
+Get	cHttp.h	/^	size_t	Get(string &data, string url);$/;"	p	class:CTiny_curl	access:public
+Init	cHttp.cpp	/^int CTiny_curl::Init(void)$/;"	f	class:CTiny_curl
+Init	cHttp.h	/^	int		Init(void);$/;"	p	class:CTiny_curl	access:public
+Post	cHttp.h	/^	size_t	Post(string &data, string url);$/;"	p	class:CTiny_curl	access:public
+Replace_space	cHttp.cpp	/^string CTiny_curl::Replace_space(string url)$/;"	f	class:CTiny_curl
+Replace_space	cHttp.h	/^	string Replace_space(string url);$/;"	p	class:CTiny_curl	access:private
+WriteBufferCallback	cHttp.cpp	/^static size_t WriteBufferCallback(void *ptr, size_t size, size_t nmemb, void *data)$/;"	f	file:
+__TINY_CURL_H__	cHttp.h	/^#define __TINY_CURL_H__$/;"	d
+m_pcurl_handle	cHttp.h	/^	CURL *m_pcurl_handle;$/;"	m	class:CTiny_curl	access:private
+main	main.cpp	/^int main(int argc, char argv[])$/;"	f
+~CTiny_curl	cHttp.cpp	/^CTiny_curl::~CTiny_curl(void)$/;"	f	class:CTiny_curl
+~CTiny_curl	cHttp.h	/^	~CTiny_curl(void);$/;"	p	class:CTiny_curl	access:public
