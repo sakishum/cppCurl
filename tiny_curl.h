@@ -10,7 +10,10 @@
 #define __TINY_CURL_H__
 
 #include <curl/curl.h>
-#include <curl/types.h>
+///#include <curl/types.h>
+/// Doesn't compile: curl/types.h: No such file or directory
+/// This is a problem on archlinux which just got curl 7.21.7.
+/// curl devs removed curl/types.h and put its content in curl/curl.h.
 #include <curl/easy.h>
 #include <string>
 
